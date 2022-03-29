@@ -239,3 +239,104 @@ footer ul li a {
   text-decoration: none;
   color: #BBC3CF;
 }
+
+/*Responsividade*/
+@media screen and (max-width: 768px){
+
+              /**********NAV**********/
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav ul li > #nav-botoes{
+    display: none;
+  }
+
+nav ul {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       list-style: none;
+       padding: 10px 30px 10px 40px;
+       width: 100%;
+       max-width: 100%;
+}
+
+nav ul li {
+            text-align: center;
+            width: auto;
+}
+
+nav ul li a {
+              display: inline-block;
+              padding: 0px 10px;
+              width: 100%;
+              text-decoration: none;
+              color: #BBC3CF;
+}
+
+            /**********HEADER**********/
+
+  header{
+    font-size: .7em;
+  }
+  
+  header img{
+    display: none;
+  }
+
+  
+  header{
+    height:600px;
+    height: 60vh;
+  }
+
+  /**********FOOTER**********/
+  footer{
+    max-width: 100%;
+  }
+  
+  footer a{
+      text-decoration: none;
+      color: #8896AB;
+  }
+  
+  footer h3{
+    color: #8896AB;
+    font-size: 1em;
+  }
+  
+  footer ul {
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    
+  }
+  
+  footer ul li{
+    text-align: center;
+    font-size: 10px;
+    width: 6em;
+  }
+  
+  footer ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #BBC3CF;
+  }
+
+}
