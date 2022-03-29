@@ -242,7 +242,9 @@ footer ul li a {
 
 /*Responsividade*/
 @media screen and (max-width: 768px){
-
+.excresponsivo{
+  display: none;
+}
               /**********NAV**********/
 
   nav{
@@ -256,10 +258,6 @@ footer ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  nav ul li > #nav-botoes{
-    display: none;
   }
 
 nav ul {
